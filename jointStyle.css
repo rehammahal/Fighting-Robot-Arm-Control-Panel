@@ -1,0 +1,276 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(-45deg,#1e256d,#6956ED);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 876px) {
+    .container {
+        height: 770px;
+        width: 720px;
+        background-color: #343539;
+        border-radius: 15px;
+        box-shadow: 0 0 50px rgb(95,84, 92);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 80%;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-family: Russo One;
+        margin-bottom: 35px;
+    }
+
+    h3 {
+        color: #9f9eac;
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 15px;
+        text-align: center;
+        margin-left: -5px;
+        font-family: Russo One;
+    }
+
+    p {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-left: -200px;
+        font-size: 10px;
+        opacity: 0.6;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    .slider {
+        -webkit-appearance: none;
+        width: 70%;
+        height: 8px;
+        background: linear-gradient(45deg,#ffffff, #6353E1);
+        opacity: 0.7;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+        border-radius: 12px;
+        box-shadow: 0px 0px 3px rgb(255, 255, 255);
+        position: relative;
+    }
+
+    .slider:hover {
+        opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 18px;
+        height: 18px;
+        background: #ffffff;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .slider::after {
+        content: "180";
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        left: 95%;
+        top: 15px;
+    }
+
+    .slider::before {
+        content: "0";
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        top: 15px;
+    }
+
+    button {
+        color: #484b57;
+        background: linear-gradient(45deg,#ffffff, #6353E1);
+        padding: 6px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 15px;
+        font-family: Russo One;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+    #saveButton {
+        width: 85%;
+        display: inline-block;
+    }
+
+
+    #runButton {
+        width: 85%;
+        display: inline-block;
+    }
+}
+
+
+
+@media (min-width: 876px) {
+    .container {
+        height: 600px;
+        width: 1200px;
+        background-color: #343539;
+        box-shadow: 0 0 50px rgb(95, 84, 92);
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .container .leftSide {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .container .leftSide .forimg {
+        background-image: url("https://i.postimg.cc/jqGk1FGq/ArmLogo.png");
+        background-size: 350px;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 70px;
+        text-align: left;
+        font-family: Russo One;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    h3 {
+        color: #9f9eac;
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 15px;
+        text-align: left;
+        margin-left: -5px;
+        font-family: Russo One;
+    }
+
+    p {
+        color: white;
+        text-align: left;
+        font-weight: bold;
+        font-size: 10px;
+        opacity: 0.6;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+
+    .container .leftSide img {
+        position: relative;
+        width: 330px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .container .rightSide {
+        flex-direction: column;
+        margin-top: -5px;
+        margin-right: 60px;
+        margin-left: 20px;
+    }
+
+    .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 8px;
+        background: linear-gradient(45deg,#ffffff, #6353E1);
+        opacity: 0.7;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+        border-radius: 12px;
+        box-shadow: 0px 0px 3px rgb(255, 255, 255);
+        position: relative;
+    }
+
+    .slider:hover {
+        opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 18px;
+        height: 18px;
+        background: #ffffff;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .slider::after {
+        content: "180";
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        left: 95%;
+        top: 15px;
+    }
+
+    .slider::before {
+        content: "0";
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        top: 15px;
+    }
+
+    button {
+        color: #484b57;
+        background: linear-gradient(45deg,#ffffff, #6353E1);
+        padding: 6px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 15px;
+        font-family: Russo One;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+    #saveButton {
+        width: 48%;
+        float: left;
+    }
+
+
+    #runButton {
+        width: 48%;
+        float: right;
+    }
+}
