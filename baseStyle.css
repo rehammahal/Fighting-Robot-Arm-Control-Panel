@@ -1,0 +1,185 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(-45deg,#1e256d,#6956ED);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 517px) {
+    .container {
+        height: 600px;
+        width: 720px;
+        background-color: #343539;
+        border-radius: 15px;
+        box-shadow: 0 0 50px rgb(95,84, 92);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 80%;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-family: Russo One;
+    }
+
+    button {
+        background: linear-gradient(45deg,#ffffff, #6353E1);
+        box-shadow: 0px 1px 10px 1px rgb(124, 124, 124);
+        color: #484b57;
+        font-family: Russo One;
+        font-size: 15px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .forward {
+        border-radius: 30px;
+        width: 180px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    .backward {
+        border-radius: 30px;
+        width: 180px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    .left {
+        border-radius: 30px;
+        width: 180px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    .right {
+        border-radius: 30px;
+        width: 180px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    #button:hover {
+        opacity: 0.7;
+    }
+
+    .stop {
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        margin: 20px 20px 20px 20px; 
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 518px) {
+    .container {
+        height: 600px;
+        width: 1200px;
+        background-color: #343539;
+        box-shadow: 0 0 50px rgb(95, 84, 92);
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 35% 75%;
+    }
+
+    .container .leftSide {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .container .leftSide .forimg {
+        background-image: url("https://i.postimg.cc/jqGk1FGq/ArmLogo.png");
+        background-size: 350px;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+    }
+
+    .container .rightSide {
+        flex-direction: column;
+        margin-top: 10%;
+        margin-right: 60px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 70px;
+        text-align: left;
+        font-family: Russo One;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    button {
+        background: linear-gradient(45deg,#ffffff, #6353E1);
+        box-shadow: 0px 1px 10px 1px rgb(124, 124, 124);
+        color: #484b57;
+        font-family: Russo One;
+        font-size: 20px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .forward {
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .backward {
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .left {
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .right {
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    #button:hover {
+        opacity: 0.7;
+    }
+
+    .stop {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin: 50px 20px 50px 20px; 
+        display: inline-block;
+    }
+}

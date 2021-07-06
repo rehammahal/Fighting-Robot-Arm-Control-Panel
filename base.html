@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="baseStyle.css">
+    <title>Arm Base Movement</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <h1>Arm Base Movement</h1>
+            <div class="forimg">
+            </div>
+        </div>
+
+        <form action="connectBase.php" method="post">
+            <div class="rightSide">
+                <div>
+                    <button type="submit" id="button" name="forward" value="f" class="forward">Forward</button>
+                </div>
+                <div>
+                    <button type="submit" id="button" name="left" value="l" class="left">Left</button>
+                    <button type="submit" id="button" name="stop" value="s" class="stop">Stop</button>
+                    <button type="submit" id="button" name="backward" value="b" class="backward">Backward</button>
+                </div>
+                <div>
+                    <button type="submit" id="button" name="right" value="r" class="right">Right</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
