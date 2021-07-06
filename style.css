@@ -91,7 +91,7 @@ body {
 @media (min-width: 630px) {
     .container {
         background-color: #343539;
-        width: 1300px;
+        width: 1200px;
         height: 600px;
         border-radius: 15px;
         box-shadow: 0 0 50px rgb(95,84, 92);
