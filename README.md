@@ -1,43 +1,42 @@
 # Robot-Arm-Control-Panel
 
-This is the second task assigned to me in summer training at Smart Methods Company.
+We are a team of eight trainees working on a fighting robotic arm project during our summer training at Smart Methods Company. This is my second task in the project, which is the major part of the project since it requires me to do the full-stack development which envolves the entire programming and designing of the front-end and back-end of the fighting robotic arm controlling system.
 
-This project is the programming part of the main project to design and implement a robotic arm of a fighting robot that I'm working on with a team.
+Basically, three user interfaces (UI) are designed using HTML and CSS.
 
-In this task, I designed three user interfaces of controlling on whole robotic arm.
+The first UI (which is referred to as the index.html) helps the user to choose from two controlling UIs, the Arm Joints Controlling UI and the Arm Base Controlling UI.
 
-(index.html)'s the first page in this project. it's about the main screen to allow you to choose if you want to control on joints or base of arm.
+The Arm Joints Controlling UI (which is referred to as the joints.html) gives the user the ability to control six servo motors with a slider for each one, allowing each servo motor to rotate between 0 and 180 degrees.
 
-(joints.html)'s joints movement of arm page. it's about panel with six sliders that control the movement of six motors in the range between 0 to 180 degrees.
+The Arm Base Controlling UI (which is referred to as the base.html) allows the user to control the base movement horizontally in four directions, forward, backward, right and left through four buttons, and a fifth button to stop the base movement.
 
-(base.html)'s base movement of arm page. it's about panel with five bottuns that control the movement of directions in forward, right, backward, left, or stop.
+I also created two databases, one is to save the joints' values by clicking the save button from the UI after choosing values from the sliders while the other database is used to save the current movement of the base by clicking the direction buttons.
 
-Also, I created two database, one of them to saves joints' values by clicking the save button from UI after choose values from sliders.
-another one to save the current movement of base by clicking direction button
+This part of the project is created using HTML, CSS for the front-end, and Javascript, PHP and SQL for the back-end.
 
-I made this project using HTML, CSS, Javascript, PHP, and SQL.
+Kindly check out the UI by clicking on the following link: https://rehammahal.github.io/Robot-Arm-Control-Panel/
 
-To See The UI: https://rehammahal.github.io/Robot-Arm-Control-Panel/
+_____________________________________________________
 
+في فريق من ثمانية متدربين نعمل على مشروع ذراع المبارزة الروبوتية في التدريب الصيفي التابع لشركة الاساليب الذكية.
 
-هذة المهمة الثانية لي في التدريب الصيفي في شركة الاساليب الذكية.
+وهذه هي مهمتي الثانية في المشروع، وهي الجزء الرئيسي من المشروع لانه يتطلب مني ان اكون مطور ويب متكامل لتنفيذ البرمجة والتصميم لبناء نظام كامل للتحكم في روبوت المبارزة.
 
-المهمة عبارة عن جزء البرمجة لمشروع تصميم وتنفيذ ذراع روبوتية لروبوت المبارزة الذي اعمل عليه مع فريق مهندسين ميكانيكا، كهرباء، ذكاء اصطناعي وهندسة صناعية واعمل في الفريق كمبرمجة في مسار انترنت الاشياء.
+في هذة المهمة قمت بتصيمم ثلاث واجهات للتحكم.
 
-
-في هذة المهمة صممت ثلاثة واجهات للتحكم في كامل مشروع الذراع الروبوتية.
-
-في الصفحة الاولى
+في الواجهة الاولى
 (index.html)
-وهي الشاشة الرئيسية التي تسمح لك باختيار احدى الواجهتين للتحكم في المفاصل او التحكم في القاعدة.
+تساعد المستخدم على الاختيار من بين واجهتي مستخدم ، واجهة للتحكم في مفاصل الذراع واخرى للتحكم في قاعدة الذراع.
 
-وفي الصفحة
+وفي الواجهة الثانية
 (joints.html)
-شاشة التحكم في مفاصل الروبوت، وهي عبارة عن ستة اشرطة تتحكم في حركة ستة محركات بمدى 0 الى 180.
+تمنح للمستخدم بالتحكم في ستة محركات باستخدام شريط تمرير لكل محرك في مدى دوران بين 0 الى 180 درجة.
 
-وفي الصفحة
+وفي الواجهة الثالثة
 (base.html)
-شاشة التحكم بحركة قاعدة الربوت في اربع اتجاهات الى الامام، الالتفاف لليمين، الى الخلف، الالتفاف لليسار، او التوقف عن طريق الضغط على زر الاتجاه.
+تسمح للمستخدم بالتحكم في حركة القاعدة افقياً في أربعة اتجاهات، للامام والخلف واليمين واليسار من خلال أربعة ازرار، و زر اخر للتوقف عن الحركة.
+
+وقمت ايضاً بإنشاء قاعدتي بيانات، إحاهما لحفظ قيم المفاصل للمحركات عن طريق النقر فوق زر حفظ من واجهة المستخدم بعد ادخال القيم من اشرطة التمرير، في حين ان قاعدة البيانات الاخرى تُحفظ فيها الحركة الحالية للقاعدة عن طريق النقر فوق زر الاتجاه المراد الحركة فيها.
 
 في هذا المشروع استخدمت لغات HTML, CSS, Javascript, PHP, and SQL.
 
