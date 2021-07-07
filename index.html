@@ -21,5 +21,18 @@
             <button class="button"><a href="base.html">Arm Base Movment</a></button>
         </div>
     </div>
+    <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "b749f804-f672-47df-ae7e-74151db86769", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "4a10ef73-606b-4bea-a86d-49c3456026e2", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 </html>
