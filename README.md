@@ -14,7 +14,7 @@ I also created two databases, one is to save the joints' values by clicking the 
 
 This part of the project is created using HTML, CSS for the front-end, and Javascript, PHP and SQL for the back-end.
 
-Kindly check out the UI by clicking on the following link: https://rehammahal.github.io/Robot-Arm-Control-Panel/
+Kindly check out the UI by clicking on the following link: https://rehammahal.github.io/Fighting-Robot-Arm-Control-Panel/
 
 Note: It designed to be responsive with web and mobile view.
 _____________________________________________________
@@ -41,6 +41,6 @@ _____________________________________________________
 
 في هذا المشروع استخدمت لغات HTML, CSS, Javascript, PHP, and SQL.
 
-لمشاهدة واجهة التحكم: https://rehammahal.github.io/Robot-Arm-Control-Panel/
+لمشاهدة واجهة التحكم: https://rehammahal.github.io/Fighting-Robot-Arm-Control-Panel/
 
 ملاحظة: تم تصميم الواجهة لتكون متجاوبة مع  عرض المتصفح والهواتف الذكية
