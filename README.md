@@ -1,4 +1,4 @@
-# Robot-Arm-Control-Panel
+# Fighting-Robot-Arm-Control-Panel
 
 We are a team of eight trainees working on a fighting robotic arm project during our summer training at Smart Methods Company. This is my second task in the project, which is the major part of the project since it requires me to do the full-stack development which envolves the entire programming and designing of the front-end and back-end of the fighting robotic arm controlling system.
 
